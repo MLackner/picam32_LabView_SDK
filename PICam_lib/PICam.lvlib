@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="14008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*%!!!*Q(C=\&gt;5^&lt;BJ2&amp;)&lt;BDSB&amp;7B28=2/RB&lt;-&amp;NM!74E^&amp;C_S'XGG/2%0,%E+6`J2OW1*&lt;',^TZQSSB'W+W%I+T`A/T(@`(OZ=D;6W@*/_KLNW,.]]XKG_T&gt;/^U(SMXW[\:&lt;=='LX?@\R:HO(DRX!:'N61X78^=.N&gt;VP`&amp;\\NS[00Y00\NM&lt;[[34^]TU\5PYAI31G+5UT^6&amp;W3*XG3*XG3*XG1"XG1"XG1"\G4/\G4/\G4/\G2'\G2'\G2'XE\S55O=J&amp;$3C:0*EI'41:)'E.2=EE]C3@R*"ZOF8A34_**0)G(*EI]C3@R**\%1T=FHM34?"*0YG'I*MFWEO.*0!SPQ".Y!E`A#4R-K=!4!),*AI'$17!IK!S_"*\!%XDYKM!4?!*0Y!E]6#PQ"*\!%XA#$VX;KE44^#=Z(I;2YX%]DM@R/"['FO.R0)\(]4A?JJ0D=4Q/QJH1'2S#H%Z/!_@']4A?0O2Y()`D=4S/B[LWB,SN4+`J4X)]BM@Q'"\$9XA91I&lt;(]"A?QW.Y'&amp;;'R`!9(M.D?*B+BM@Q'"Y$9ET+^$)'-TI;D9T!]0$8&gt;IOVJR2.9OW5;P/K.K6KM[EWE7JTK"[[[G'K(J*K]67,KFIMV3+I@JQ+L=+I*F&amp;V\BPKR06)/6$WF!VF26F1ZJ1::&gt;JX@??'J^.*R_.2B]."_`V?G]V'K^6+C]6#]`F=M^F-U_HU`"LYS8F_)1TPJ48@RX,`1(F=4_Z`X@[ZO`G^O`P_9T@7@&gt;$`UP`AX;AP?DYO;`1%5A&lt;'UQ!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
+<Library LVVersion="19008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*%!!!*Q(C=\&gt;5^&lt;BJ2&amp;)&lt;BDSB&amp;7B28=2/RB&lt;-&amp;NM!74E^&amp;C_S'XGG/2%0,%E+6`J2OW1*&lt;',^TZQSSB'W+W%I+T`A/T(@`(OZ=D;6W@*/_KLNW,.]]XKG_T&gt;/^U(SMXW[\:&lt;=='LX?@\R:HO(DRX!:'N61X78^=.N&gt;VP`&amp;\\NS[00Y00\NM&lt;[[34^]TU\5PYAI31G+5UT^6&amp;W3*XG3*XG3*XG1"XG1"XG1"\G4/\G4/\G4/\G2'\G2'\G2'XE\S55O=J&amp;$3C:0*EI'41:)'E.2=EE]C3@R*"ZOF8A34_**0)G(*EI]C3@R**\%1T=FHM34?"*0YG'I*MFWEO.*0!SPQ".Y!E`A#4R-K=!4!),*AI'$17!IK!S_"*\!%XDYKM!4?!*0Y!E]6#PQ"*\!%XA#$VX;KE44^#=Z(I;2YX%]DM@R/"['FO.R0)\(]4A?JJ0D=4Q/QJH1'2S#H%Z/!_@']4A?0O2Y()`D=4S/B[LWB,SN4+`J4X)]BM@Q'"\$9XA91I&lt;(]"A?QW.Y'&amp;;'R`!9(M.D?*B+BM@Q'"Y$9ET+^$)'-TI;D9T!]0$8&gt;IOVJR2.9OW5;P/K.K6KM[EWE7JTK"[[[G'K(J*K]67,KFIMV3+I@JQ+L=+I*F&amp;V\BPKR06)/6$WF!VF26F1ZJ1::&gt;JX@??'J^.*R_.2B]."_`V?G]V'K^6+C]6#]`F=M^F-U_HU`"LYS8F_)1TPJ48@RX,`1(F=4_Z`X@[ZO`G^O`P_9T@7@&gt;$`UP`AX;AP?DYO;`1%5A&lt;'UQ!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -9,40 +9,42 @@
 
 </Property>
 	<Item Name="Ctrls" Type="Folder">
-		<Item Name="PicamCameraID.ctl" Type="VI" URL="../Ctrls/PicamCameraID.ctl"/>
-		<Item Name="serial_number.ctl" Type="VI" URL="../Ctrls/serial_number.ctl"/>
-		<Item Name="PicamComputerInterface.ctl" Type="VI" URL="../Ctrls/PicamComputerInterface.ctl"/>
-		<Item Name="PicamErrors.ctl" Type="VI" URL="../Ctrls/PicamErrors.ctl"/>
-		<Item Name="PicamModel.ctl" Type="VI" URL="../Ctrls/PicamModel.ctl"/>
-		<Item Name="PicamADCAnalogGain.ctl" Type="VI" URL="../Ctrls/PicamADCAnalogGain.ctl"/>
-		<Item Name="sensor_name.ctl" Type="VI" URL="../Ctrls/sensor_name.ctl"/>
-		<Item Name="PicamAdcQuality.ctl" Type="VI" URL="../Ctrls/PicamAdcQuality.ctl"/>
-		<Item Name="PicamSensorTemperatureStatus.ctl" Type="VI" URL="../Ctrls/PicamSensorTemperatureStatus.ctl"/>
-		<Item Name="ReadoutControlMode.ctl" Type="VI" URL="../Ctrls/ReadoutControlMode.ctl"/>
-		<Item Name="ShutterTimingMode.ctl" Type="VI" URL="../Ctrls/ShutterTimingMode.ctl"/>
-		<Item Name="Sensor_info.ctl" Type="VI" URL="../Ctrls/Sensor_info.ctl"/>
-		<Item Name="Sensor_Layout.ctl" Type="VI" URL="../Ctrls/Sensor_Layout.ctl"/>
-		<Item Name="PicamROI_s.ctl" Type="VI" URL="../Ctrls/PicamROI_s.ctl"/>
-		<Item Name="PicamROI.ctl" Type="VI" URL="../Ctrls/PicamROI.ctl"/>
-		<Item Name="PicamAcquisitionErrors.ctl" Type="VI" URL="../Ctrls/PicamAcquisitionErrors.ctl"/>
-		<Item Name="PicamTriggerResponse.ctl" Type="VI" URL="../Ctrls/PicamTriggerResponse.ctl"/>
-		<Item Name="PicamTriggerDetermination.ctl" Type="VI" URL="../Ctrls/PicamTriggerDetermination.ctl"/>
-		<Item Name="PicamOutputSignal.ctl" Type="VI" URL="../Ctrls/PicamOutputSignal.ctl"/>
-		<Item Name="PicamCcdCharacteristics.ctl" Type="VI" URL="../Ctrls/PicamCcdCharacteristics.ctl"/>
-		<Item Name="PicamOrientation.ctl" Type="VI" URL="../Ctrls/PicamOrientation.ctl"/>
-		<Item Name="PicamPixelFormat.ctl" Type="VI" URL="../Ctrls/PicamPixelFormat.ctl"/>
-		<Item Name="PicamReadoutControlMode.ctl" Type="VI" URL="../Ctrls/PicamReadoutControlMode.ctl"/>
-		<Item Name="PicamReadoutOrientation.ctl" Type="VI" URL="../Ctrls/PicamReadoutOrientation.ctl"/>
-		<Item Name="PicamSensorType.ctl" Type="VI" URL="../Ctrls/PicamSensorType.ctl"/>
-		<Item Name="PicamTimeStamps.ctl" Type="VI" URL="../Ctrls/PicamTimeStamps.ctl"/>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="PicamAcquisitionBuffer.ctl" Type="VI" URL="../Ctrls/PicamAcquisitionBuffer.ctl"/>
 		<Item Name="PicamAcquisitionBufferWithFiller.ctl" Type="VI" URL="../Ctrls/PicamAcquisitionBufferWithFiller.ctl"/>
 		<Item Name="PicamAcquisitionBufferWithoutFiller.ctl" Type="VI" URL="../Ctrls/PicamAcquisitionBufferWithoutFiller.ctl"/>
+		<Item Name="PicamAcquisitionErrors.ctl" Type="VI" URL="../Ctrls/PicamAcquisitionErrors.ctl"/>
+		<Item Name="PicamADCAnalogGain.ctl" Type="VI" URL="../Ctrls/PicamADCAnalogGain.ctl"/>
+		<Item Name="PicamAdcQuality.ctl" Type="VI" URL="../Ctrls/PicamAdcQuality.ctl"/>
+		<Item Name="PicamCameraID.ctl" Type="VI" URL="../Ctrls/PicamCameraID.ctl"/>
+		<Item Name="PicamCcdCharacteristics.ctl" Type="VI" URL="../Ctrls/PicamCcdCharacteristics.ctl"/>
+		<Item Name="PicamComputerInterface.ctl" Type="VI" URL="../Ctrls/PicamComputerInterface.ctl"/>
+		<Item Name="PicamErrors.ctl" Type="VI" URL="../Ctrls/PicamErrors.ctl"/>
+		<Item Name="PicamModel.ctl" Type="VI" URL="../Ctrls/PicamModel.ctl"/>
+		<Item Name="PicamOrientation.ctl" Type="VI" URL="../Ctrls/PicamOrientation.ctl"/>
+		<Item Name="PicamOutputSignal.ctl" Type="VI" URL="../Ctrls/PicamOutputSignal.ctl"/>
+		<Item Name="PicamPixelFormat.ctl" Type="VI" URL="../Ctrls/PicamPixelFormat.ctl"/>
+		<Item Name="PicamReadoutControlMode.ctl" Type="VI" URL="../Ctrls/PicamReadoutControlMode.ctl"/>
+		<Item Name="PicamReadoutOrientation.ctl" Type="VI" URL="../Ctrls/PicamReadoutOrientation.ctl"/>
+		<Item Name="PicamROI.ctl" Type="VI" URL="../Ctrls/PicamROI.ctl"/>
+		<Item Name="PicamROI_s.ctl" Type="VI" URL="../Ctrls/PicamROI_s.ctl"/>
+		<Item Name="PicamSensorTemperatureStatus.ctl" Type="VI" URL="../Ctrls/PicamSensorTemperatureStatus.ctl"/>
+		<Item Name="PicamSensorType.ctl" Type="VI" URL="../Ctrls/PicamSensorType.ctl"/>
+		<Item Name="PicamTimeStamps.ctl" Type="VI" URL="../Ctrls/PicamTimeStamps.ctl"/>
+		<Item Name="PicamTriggerDetermination.ctl" Type="VI" URL="../Ctrls/PicamTriggerDetermination.ctl"/>
+		<Item Name="PicamTriggerResponse.ctl" Type="VI" URL="../Ctrls/PicamTriggerResponse.ctl"/>
+		<Item Name="ReadoutControlMode.ctl" Type="VI" URL="../Ctrls/ReadoutControlMode.ctl"/>
+		<Item Name="Sensor_info.ctl" Type="VI" URL="../Ctrls/Sensor_info.ctl"/>
+		<Item Name="Sensor_Layout.ctl" Type="VI" URL="../Ctrls/Sensor_Layout.ctl"/>
+		<Item Name="sensor_name.ctl" Type="VI" URL="../Ctrls/sensor_name.ctl"/>
+		<Item Name="serial_number.ctl" Type="VI" URL="../Ctrls/serial_number.ctl"/>
+		<Item Name="ShutterTimingMode.ctl" Type="VI" URL="../Ctrls/ShutterTimingMode.ctl"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Get_error.vi" Type="VI" URL="../private/Get_error.vi"/>
 		<Item Name="Calculate_ROI_matrix.vi" Type="VI" URL="../private/Calculate_ROI_matrix.vi"/>
 		<Item Name="Zero Terminated Byte Array to String.vi" Type="VI" URL="../private/Zero Terminated Byte Array to String.vi"/>
+		<Item Name="PI_V.vi" Type="VI" URL="../private/PI_V.vi"/>
 	</Item>
 	<Item Name="Library_functions" Type="Folder">
 		<Item Name="Init_library.vi" Type="VI" URL="../Init_library.vi"/>
@@ -76,113 +78,114 @@
 		<Item Name="Get_SensorTemperatureSetPoint.vi" Type="VI" URL="../Get_SensorTemperatureSetPoint.vi"/>
 	</Item>
 	<Item Name="CCD_config &amp; info" Type="Folder">
-		<Item Name="Sensor_info.vi" Type="VI" URL="../Sensor_info.vi"/>
-		<Item Name="Sensor_Layout.vi" Type="VI" URL="../Sensor_Layout.vi"/>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Frame_Size.vi" Type="VI" URL="../Frame_Size.vi"/>
 		<Item Name="FramesPerReadout.vi" Type="VI" URL="../FramesPerReadout.vi"/>
 		<Item Name="FrameStride.vi" Type="VI" URL="../FrameStride.vi"/>
-		<Item Name="ReadoutStride.vi" Type="VI" URL="../ReadoutStride.vi"/>
-		<Item Name="Get_CleanCycleCount.vi" Type="VI" URL="../Get_CleanCycleCount.vi"/>
-		<Item Name="Set_CleanCycleCount.vi" Type="VI" URL="../Set_CleanCycleCount.vi"/>
-		<Item Name="Get_CleanCycleHeight.vi" Type="VI" URL="../Get_CleanCycleHeight.vi"/>
-		<Item Name="Set_CleanCycleHeight.vi" Type="VI" URL="../Set_CleanCycleHeight.vi"/>
-		<Item Name="Get_ShutterTimingMode.vi" Type="VI" URL="../Get_ShutterTimingMode.vi"/>
-		<Item Name="Set_ShutterTimingMode.vi" Type="VI" URL="../Set_ShutterTimingMode.vi"/>
-		<Item Name="Get_ReadoutControlMode.vi" Type="VI" URL="../Get_ReadoutControlMode.vi"/>
-		<Item Name="Set_ReadoutControlMode.vi" Type="VI" URL="../Set_ReadoutControlMode.vi"/>
-		<Item Name="Get_ExposureTime.vi" Type="VI" URL="../Get_ExposureTime.vi"/>
-		<Item Name="Set_ExposureTime.vi" Type="VI" URL="../Set_ExposureTime.vi"/>
-		<Item Name="Get_ADCQuality.vi" Type="VI" URL="../Get_ADCQuality.vi"/>
-		<Item Name="Set_ADCQuality.vi" Type="VI" URL="../Set_ADCQuality.vi"/>
+		<Item Name="Get_ActiveBottomMargin.vi" Type="VI" URL="../Get_ActiveBottomMargin.vi"/>
+		<Item Name="Get_ActiveHeight.vi" Type="VI" URL="../Get_ActiveHeight.vi"/>
+		<Item Name="Get_ActiveLeftMargin.vi" Type="VI" URL="../Get_ActiveLeftMargin.vi"/>
+		<Item Name="Get_ActiveRightMargin.vi" Type="VI" URL="../Get_ActiveRightMargin.vi"/>
+		<Item Name="Get_ActiveTopMargin.vi" Type="VI" URL="../Get_ActiveTopMargin.vi"/>
+		<Item Name="Get_ActiveWidth.vi" Type="VI" URL="../Get_ActiveWidth.vi"/>
 		<Item Name="Get_ADCAnalogGain.vi" Type="VI" URL="../Get_ADCAnalogGain.vi"/>
-		<Item Name="Set_ADCAnalogGain.vi" Type="VI" URL="../Set_ADCAnalogGain.vi"/>
-		<Item Name="Get_SensorActiveHeight.vi" Type="VI" URL="../Get_SensorActiveHeight.vi"/>
-		<Item Name="Get_SensorActiveWidth.vi" Type="VI" URL="../Get_SensorActiveWidth.vi"/>
-		<Item Name="Get_ShutterClosingDelay.vi" Type="VI" URL="../Get_ShutterClosingDelay.vi"/>
-		<Item Name="Get_ShutterDelayResolution.vi" Type="VI" URL="../Get_ShutterDelayResolution.vi"/>
-		<Item Name="Get_AdcSpeed.vi" Type="VI" URL="../Get_AdcSpeed.vi"/>
 		<Item Name="Get_AdcBitDepth.vi" Type="VI" URL="../Get_AdcBitDepth.vi"/>
-		<Item Name="Get_TriggerResponse.vi" Type="VI" URL="../Get_TriggerResponse.vi"/>
-		<Item Name="Get_TriggerDetermination.vi" Type="VI" URL="../Get_TriggerDetermination.vi"/>
-		<Item Name="Get_OutputSignal.vi" Type="VI" URL="../Get_OutputSignal.vi"/>
+		<Item Name="Get_ADCQuality.vi" Type="VI" URL="../Get_ADCQuality.vi"/>
+		<Item Name="Get_AdcSpeed.vi" Type="VI" URL="../Get_AdcSpeed.vi"/>
+		<Item Name="Get_CcdCharacteristics.vi" Type="VI" URL="../Get_CcdCharacteristics.vi"/>
+		<Item Name="Get_CleanCycleCount.vi" Type="VI" URL="../Get_CleanCycleCount.vi"/>
+		<Item Name="Get_CleanCycleHeight.vi" Type="VI" URL="../Get_CleanCycleHeight.vi"/>
 		<Item Name="Get_CleanSectionFinalHeight.vi" Type="VI" URL="../Get_CleanSectionFinalHeight.vi"/>
 		<Item Name="Get_CleanSectionFinalHeightCount.vi" Type="VI" URL="../Get_CleanSectionFinalHeightCount.vi"/>
+		<Item Name="Get_CleanSerialRegister.vi" Type="VI" URL="../Get_CleanSerialRegister.vi"/>
+		<Item Name="Get_CleanUntilTrigger.vi" Type="VI" URL="../Get_CleanUntilTrigger.vi"/>
+		<Item Name="Get_DisableDataFormatting.vi" Type="VI" URL="../Get_DisableDataFormatting.vi"/>
+		<Item Name="Get_ExactReadoutCountMaximum.vi" Type="VI" URL="../Get_ExactReadoutCountMaximum.vi"/>
+		<Item Name="Get_ExposureTime.vi" Type="VI" URL="../Get_ExposureTime.vi"/>
+		<Item Name="Get_FrameRateCalculation.vi" Type="VI" URL="../Get_FrameRateCalculation.vi"/>
 		<Item Name="Get_FrameSize.vi" Type="VI" URL="../Get_FrameSize.vi"/>
 		<Item Name="Get_FramesPerReadout.vi" Type="VI" URL="../Get_FramesPerReadout.vi"/>
 		<Item Name="Get_FrameStride.vi" Type="VI" URL="../Get_FrameStride.vi"/>
 		<Item Name="Get_FrameTrackingBitDepth.vi" Type="VI" URL="../Get_FrameTrackingBitDepth.vi"/>
 		<Item Name="Get_KineticsWindowHeight.vi" Type="VI" URL="../Get_KineticsWindowHeight.vi"/>
+		<Item Name="Get_NormalizeOrientation.vi" Type="VI" URL="../Get_NormalizeOrientation.vi"/>
+		<Item Name="Get_OnlineReadoutRateCalculation.vi" Type="VI" URL="../Get_OnlineReadoutRateCalculation.vi"/>
+		<Item Name="Get_Orientation.vi" Type="VI" URL="../Get_Orientation.vi"/>
+		<Item Name="Get_OutputSignal.vi" Type="VI" URL="../Get_OutputSignal.vi"/>
 		<Item Name="Get_PixelBitDepth.vi" Type="VI" URL="../Get_PixelBitDepth.vi"/>
+		<Item Name="Get_PixelFormat.vi" Type="VI" URL="../Get_PixelFormat.vi"/>
+		<Item Name="Get_PixelGapHeight.vi" Type="VI" URL="../Get_PixelGapHeight.vi"/>
+		<Item Name="Get_PixelGapWidth.vi" Type="VI" URL="../Get_PixelGapWidth.vi"/>
+		<Item Name="Get_PixelHeight.vi" Type="VI" URL="../Get_PixelHeight.vi"/>
+		<Item Name="Get_PixelWidth.vi" Type="VI" URL="../Get_PixelWidth.vi"/>
+		<Item Name="Get_ReadoutControlMode.vi" Type="VI" URL="../Get_ReadoutControlMode.vi"/>
+		<Item Name="Get_ReadoutCount.vi" Type="VI" URL="../Get_ReadoutCount.vi"/>
+		<Item Name="Get_ReadoutOrientation.vi" Type="VI" URL="../Get_ReadoutOrientation.vi"/>
+		<Item Name="Get_ReadoutRateCalculation.vi" Type="VI" URL="../Get_ReadoutRateCalculation.vi"/>
 		<Item Name="Get_ReadoutStride.vi" Type="VI" URL="../Get_ReadoutStride.vi"/>
+		<Item Name="Get_ReadoutTimeCalculation.vi" Type="VI" URL="../Get_ReadoutTimeCalculation.vi"/>
+		<Item Name="Get_Rois.vi" Type="VI" URL="../Get_Rois.vi"/>
 		<Item Name="Get_SensorActiveBottomMargin.vi" Type="VI" URL="../Get_SensorActiveBottomMargin.vi"/>
 		<Item Name="Get_SensorActiveExtendedHeight.vi" Type="VI" URL="../Get_SensorActiveExtendedHeight.vi"/>
+		<Item Name="Get_SensorActiveHeight.vi" Type="VI" URL="../Get_SensorActiveHeight.vi"/>
 		<Item Name="Get_SensorActiveLeftMargin.vi" Type="VI" URL="../Get_SensorActiveLeftMargin.vi"/>
 		<Item Name="Get_SensorActiveRightMargin.vi" Type="VI" URL="../Get_SensorActiveRightMargin.vi"/>
 		<Item Name="Get_SensorActiveTopMargin.vi" Type="VI" URL="../Get_SensorActiveTopMargin.vi"/>
+		<Item Name="Get_SensorActiveWidth.vi" Type="VI" URL="../Get_SensorActiveWidth.vi"/>
 		<Item Name="Get_SensorMaskedBottomMargin.vi" Type="VI" URL="../Get_SensorMaskedBottomMargin.vi"/>
 		<Item Name="Get_SensorMaskedHeight.vi" Type="VI" URL="../Get_SensorMaskedHeight.vi"/>
 		<Item Name="Get_SensorMaskedTopMargin.vi" Type="VI" URL="../Get_SensorMaskedTopMargin.vi"/>
 		<Item Name="Get_SensorSecondaryActiveHeight.vi" Type="VI" URL="../Get_SensorSecondaryActiveHeight.vi"/>
 		<Item Name="Get_SensorSecondaryMaskedHeight.vi" Type="VI" URL="../Get_SensorSecondaryMaskedHeight.vi"/>
-		<Item Name="Get_TimeStampBitDepth.vi" Type="VI" URL="../Get_TimeStampBitDepth.vi"/>
-		<Item Name="Get_ActiveBottomMargin.vi" Type="VI" URL="../Get_ActiveBottomMargin.vi"/>
-		<Item Name="Get_ActiveHeight.vi" Type="VI" URL="../Get_ActiveHeight.vi"/>
-		<Item Name="Get_ActiveLeftMargin.vi" Type="VI" URL="../Get_ActiveLeftMargin.vi"/>
-		<Item Name="Get_ActiveRightMargin.vi" Type="VI" URL="../Get_ActiveRightMargin.vi"/>
-		<Item Name="Get_ActiveWidth.vi" Type="VI" URL="../Get_ActiveWidth.vi"/>
-		<Item Name="Get_ActiveTopMargin.vi" Type="VI" URL="../Get_ActiveTopMargin.vi"/>
-		<Item Name="Get_PixelGapWidth.vi" Type="VI" URL="../Get_PixelGapWidth.vi"/>
-		<Item Name="Get_PixelHeight.vi" Type="VI" URL="../Get_PixelHeight.vi"/>
-		<Item Name="Get_PixelWidth.vi" Type="VI" URL="../Get_PixelWidth.vi"/>
-		<Item Name="Get_ReadoutRateCalculation.vi" Type="VI" URL="../Get_ReadoutRateCalculation.vi"/>
-		<Item Name="Get_ReadoutTimeCalculation.vi" Type="VI" URL="../Get_ReadoutTimeCalculation.vi"/>
-		<Item Name="Get_VerticalShiftRate.vi" Type="VI" URL="../Get_VerticalShiftRate.vi"/>
-		<Item Name="Get_FrameRateCalculation.vi" Type="VI" URL="../Get_FrameRateCalculation.vi"/>
-		<Item Name="Get_OnlineReadoutRateCalculation.vi" Type="VI" URL="../Get_OnlineReadoutRateCalculation.vi"/>
-		<Item Name="Get_PixelGapHeight.vi" Type="VI" URL="../Get_PixelGapHeight.vi"/>
-		<Item Name="Get_CcdCharacteristics.vi" Type="VI" URL="../Get_CcdCharacteristics.vi"/>
-		<Item Name="Get_Orientation.vi" Type="VI" URL="../Get_Orientation.vi"/>
-		<Item Name="Get_PixelFormat.vi" Type="VI" URL="../Get_PixelFormat.vi"/>
-		<Item Name="Get_ReadoutOrientation.vi" Type="VI" URL="../Get_ReadoutOrientation.vi"/>
 		<Item Name="Get_SensorType.vi" Type="VI" URL="../Get_SensorType.vi"/>
-		<Item Name="Get_TimeStamps.vi" Type="VI" URL="../Get_TimeStamps.vi"/>
-		<Item Name="Get_NormalizeOrientation.vi" Type="VI" URL="../Get_NormalizeOrientation.vi"/>
-		<Item Name="Get_CleanSerialRegister.vi" Type="VI" URL="../Get_CleanSerialRegister.vi"/>
-		<Item Name="Get_CleanUntilTrigger.vi" Type="VI" URL="../Get_CleanUntilTrigger.vi"/>
-		<Item Name="Get_TrackFrames.vi" Type="VI" URL="../Get_TrackFrames.vi"/>
-		<Item Name="Get_ReadoutCount.vi" Type="VI" URL="../Get_ReadoutCount.vi"/>
-		<Item Name="Get_ExactReadoutCountMaximum.vi" Type="VI" URL="../Get_ExactReadoutCountMaximum.vi"/>
+		<Item Name="Get_ShutterClosingDelay.vi" Type="VI" URL="../Get_ShutterClosingDelay.vi"/>
+		<Item Name="Get_ShutterDelayResolution.vi" Type="VI" URL="../Get_ShutterDelayResolution.vi"/>
+		<Item Name="Get_ShutterTimingMode.vi" Type="VI" URL="../Get_ShutterTimingMode.vi"/>
+		<Item Name="Get_TimeStampBitDepth.vi" Type="VI" URL="../Get_TimeStampBitDepth.vi"/>
 		<Item Name="Get_TimeStampResolution.vi" Type="VI" URL="../Get_TimeStampResolution.vi"/>
-		<Item Name="Get_Rois.vi" Type="VI" URL="../Get_Rois.vi"/>
-		<Item Name="Set_Rois.vi" Type="VI" URL="../Set_Rois.vi"/>
-		<Item Name="Set_AdcSpeed.vi" Type="VI" URL="../Set_AdcSpeed.vi"/>
-		<Item Name="Set_ShutterDelayResolution.vi" Type="VI" URL="../Set_ShutterDelayResolution.vi"/>
-		<Item Name="Set_ShutterClosingDelay.vi" Type="VI" URL="../Set_ShutterClosingDelay.vi"/>
-		<Item Name="Set_VerticalShiftRate.vi" Type="VI" URL="../Set_VerticalShiftRate.vi"/>
-		<Item Name="Set_KineticsWindowHeight.vi" Type="VI" URL="../Set_KineticsWindowHeight.vi"/>
-		<Item Name="Set_AdcBitDepth.vi" Type="VI" URL="../Set_AdcBitDepth.vi"/>
-		<Item Name="Set_TimeStampBitDepth.vi" Type="VI" URL="../Set_TimeStampBitDepth.vi"/>
-		<Item Name="Set_FrameTrackingBitDepth.vi" Type="VI" URL="../Set_FrameTrackingBitDepth.vi"/>
-		<Item Name="Set_ActiveWidth.vi" Type="VI" URL="../Set_ActiveWidth.vi"/>
+		<Item Name="Get_TimeStamps.vi" Type="VI" URL="../Get_TimeStamps.vi"/>
+		<Item Name="Get_TrackFrames.vi" Type="VI" URL="../Get_TrackFrames.vi"/>
+		<Item Name="Get_TriggerDetermination.vi" Type="VI" URL="../Get_TriggerDetermination.vi"/>
+		<Item Name="Get_TriggerResponse.vi" Type="VI" URL="../Get_TriggerResponse.vi"/>
+		<Item Name="Get_VerticalShiftRate.vi" Type="VI" URL="../Get_VerticalShiftRate.vi"/>
+		<Item Name="ReadoutStride.vi" Type="VI" URL="../ReadoutStride.vi"/>
+		<Item Name="Sensor_info.vi" Type="VI" URL="../Sensor_info.vi"/>
+		<Item Name="Sensor_Layout.vi" Type="VI" URL="../Sensor_Layout.vi"/>
+		<Item Name="Set_ActiveBottomMargin.vi" Type="VI" URL="../Set_ActiveBottomMargin.vi"/>
 		<Item Name="Set_ActiveHeight.vi" Type="VI" URL="../Set_ActiveHeight.vi"/>
 		<Item Name="Set_ActiveLeftMargin.vi" Type="VI" URL="../Set_ActiveLeftMargin.vi"/>
-		<Item Name="Set_ActiveTopMargin.vi" Type="VI" URL="../Set_ActiveTopMargin.vi"/>
 		<Item Name="Set_ActiveRightMargin.vi" Type="VI" URL="../Set_ActiveRightMargin.vi"/>
-		<Item Name="Set_ActiveBottomMargin.vi" Type="VI" URL="../Set_ActiveBottomMargin.vi"/>
+		<Item Name="Set_ActiveTopMargin.vi" Type="VI" URL="../Set_ActiveTopMargin.vi"/>
+		<Item Name="Set_ActiveWidth.vi" Type="VI" URL="../Set_ActiveWidth.vi"/>
+		<Item Name="Set_ADCAnalogGain.vi" Type="VI" URL="../Set_ADCAnalogGain.vi"/>
+		<Item Name="Set_AdcBitDepth.vi" Type="VI" URL="../Set_AdcBitDepth.vi"/>
+		<Item Name="Set_ADCQuality.vi" Type="VI" URL="../Set_ADCQuality.vi"/>
+		<Item Name="Set_AdcSpeed.vi" Type="VI" URL="../Set_AdcSpeed.vi"/>
+		<Item Name="Set_CleanCycleCount.vi" Type="VI" URL="../Set_CleanCycleCount.vi"/>
+		<Item Name="Set_CleanCycleHeight.vi" Type="VI" URL="../Set_CleanCycleHeight.vi"/>
 		<Item Name="Set_CleanSectionFinalHeight.vi" Type="VI" URL="../Set_CleanSectionFinalHeight.vi"/>
 		<Item Name="Set_CleanSectionFinalHeightCount.vi" Type="VI" URL="../Set_CleanSectionFinalHeightCount.vi"/>
-		<Item Name="Set_NormalizeOrientation.vi" Type="VI" URL="../Set_NormalizeOrientation.vi"/>
-		<Item Name="Set_DisableDataFormatting.vi" Type="VI" URL="../Set_DisableDataFormatting.vi"/>
-		<Item Name="Get_DisableDataFormatting.vi" Type="VI" URL="../Get_DisableDataFormatting.vi"/>
-		<Item Name="Set_TrackFrames.vi" Type="VI" URL="../Set_TrackFrames.vi"/>
 		<Item Name="Set_CleanSerialRegister.vi" Type="VI" URL="../Set_CleanSerialRegister.vi"/>
 		<Item Name="Set_CleanUntilTrigger.vi" Type="VI" URL="../Set_CleanUntilTrigger.vi"/>
-		<Item Name="Set_TimeStampResolution.vi" Type="VI" URL="../Set_TimeStampResolution.vi"/>
-		<Item Name="Set_ReadoutCount.vi" Type="VI" URL="../Set_ReadoutCount.vi"/>
-		<Item Name="Set_TimeStamps.vi" Type="VI" URL="../Set_TimeStamps.vi"/>
+		<Item Name="Set_DisableDataFormatting.vi" Type="VI" URL="../Set_DisableDataFormatting.vi"/>
+		<Item Name="Set_ExposureTime.vi" Type="VI" URL="../Set_ExposureTime.vi"/>
+		<Item Name="Set_FrameTrackingBitDepth.vi" Type="VI" URL="../Set_FrameTrackingBitDepth.vi"/>
+		<Item Name="Set_KineticsWindowHeight.vi" Type="VI" URL="../Set_KineticsWindowHeight.vi"/>
+		<Item Name="Set_NormalizeOrientation.vi" Type="VI" URL="../Set_NormalizeOrientation.vi"/>
 		<Item Name="Set_OutputSignal.vi" Type="VI" URL="../Set_OutputSignal.vi"/>
-		<Item Name="Set_TriggerResponse.vi" Type="VI" URL="../Set_TriggerResponse.vi"/>
+		<Item Name="Set_ReadoutControlMode.vi" Type="VI" URL="../Set_ReadoutControlMode.vi"/>
+		<Item Name="Set_ReadoutCount.vi" Type="VI" URL="../Set_ReadoutCount.vi"/>
+		<Item Name="Set_Rois.vi" Type="VI" URL="../Set_Rois.vi"/>
+		<Item Name="Set_ShutterClosingDelay.vi" Type="VI" URL="../Set_ShutterClosingDelay.vi"/>
+		<Item Name="Set_ShutterDelayResolution.vi" Type="VI" URL="../Set_ShutterDelayResolution.vi"/>
+		<Item Name="Set_ShutterTimingMode.vi" Type="VI" URL="../Set_ShutterTimingMode.vi"/>
+		<Item Name="Set_TimeStampBitDepth.vi" Type="VI" URL="../Set_TimeStampBitDepth.vi"/>
+		<Item Name="Set_TimeStampResolution.vi" Type="VI" URL="../Set_TimeStampResolution.vi"/>
+		<Item Name="Set_TimeStamps.vi" Type="VI" URL="../Set_TimeStamps.vi"/>
+		<Item Name="Set_TrackFrames.vi" Type="VI" URL="../Set_TrackFrames.vi"/>
 		<Item Name="Set_TriggerDetermination.vi" Type="VI" URL="../Set_TriggerDetermination.vi"/>
+		<Item Name="Set_TriggerResponse.vi" Type="VI" URL="../Set_TriggerResponse.vi"/>
+		<Item Name="Set_VerticalShiftRate.vi" Type="VI" URL="../Set_VerticalShiftRate.vi"/>
 	</Item>
 	<Item Name="Acquire" Type="Folder">
 		<Item Name="Acquire_CCD_data.vi" Type="VI" URL="../Acquire_CCD_data.vi"/>
@@ -190,6 +193,22 @@
 		<Item Name="StopAcquisition.vi" Type="VI" URL="../StopAcquisition.vi"/>
 		<Item Name="IsAcquisitionRunning.vi" Type="VI" URL="../IsAcquisitionRunning.vi"/>
 		<Item Name="WaitForAcquisitionUpdate.vi" Type="VI" URL="../WaitForAcquisitionUpdate.vi"/>
+	</Item>
+	<Item Name="Test" Type="Folder">
+		<Item Name="setup.vi" Type="VI" URL="../test/setup.vi"/>
+		<Item Name="teardown.vi" Type="VI" URL="../test/teardown.vi"/>
+		<Item Name="setup.lvtest" Type="TestItem" URL="../test/setup.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:setup.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">AB9E7215-6A8E-AC71-E716-956B4096853A</Property>
+		</Item>
+		<Item Name="Set_ExposureTime.lvtest" Type="TestItem" URL="../Set_ExposureTime.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Set_ExposureTime.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">57C0C13E-7E95-C741-1D1B-CD9AA537E6B2</Property>
+		</Item>
+		<Item Name="Get_CCD_temperature.lvtest" Type="TestItem" URL="../Get_CCD_temperature.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Get_CCD_temperature.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">427CF010-0410-B265-40E2-29E75B55A233</Property>
+		</Item>
 	</Item>
 	<Item Name="TESTER_v1.vi" Type="VI" URL="../TESTER_v1.vi"/>
 	<Item Name="TESTER_v2.vi" Type="VI" URL="../TESTER_v2.vi"/>

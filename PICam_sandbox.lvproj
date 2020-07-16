@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -11,6 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="PICam.lvlib" Type="Library" URL="../PICam_lib/PICam.lvlib"/>
+		<Item Name="PicamConstraintType.ctl" Type="VI" URL="../PICam_lib/types/PicamConstraintType.ctl"/>
+		<Item Name="PicamParameters.vi" Type="VI" URL="../PICam_lib/types/PicamParameters.vi"/>
+		<Item Name="PicamValueType.ctl" Type="VI" URL="../PICam_lib/types/PicamValueType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -50,10 +53,13 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Picam32.dll" Type="Document" URL="Picam32.dll">
+			<Item Name="Picam.dll" Type="Document" URL="/../../../../Program Files/Princeton Instruments/PICam/Runtime/Picam.dll"/>
+			<Item Name="Picam64.dll" Type="Document" URL="Picam64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Picam32.dll" Type="Document" URL="../../../../../../../../Program Files/Princeton Instruments/PICam/Runtime/Picam32.dll"/>
+			<Item Name="Picam64.dll   " Type="Document" URL="Picam64.dll   ">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
