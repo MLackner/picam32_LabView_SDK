@@ -59,6 +59,8 @@
 		<Item Name="Close_camera.vi" Type="VI" URL="../Close_camera.vi"/>
 		<Item Name="ConnectDemoCamera.vi" Type="VI" URL="../ConnectDemoCamera.vi"/>
 		<Item Name="OpenCameraDevice.vi" Type="VI" URL="../OpenCameraDevice.vi"/>
+		<Item Name="GetAvailableDemoCameraModels.vi" Type="VI" URL="../GetAvailableDemoCameraModels.vi"/>
+		<Item Name="DisconnectDemoCamera.vi" Type="VI" URL="../DisconnectDemoCamera.vi"/>
 	</Item>
 	<Item Name="Refresh&amp;Commit" Type="Folder">
 		<Item Name="Refresh_parameters_from_camera.vi" Type="VI" URL="../Refresh_parameters_from_camera.vi"/>
@@ -195,20 +197,86 @@
 		<Item Name="WaitForAcquisitionUpdate.vi" Type="VI" URL="../WaitForAcquisitionUpdate.vi"/>
 	</Item>
 	<Item Name="Test" Type="Folder">
-		<Item Name="setup.vi" Type="VI" URL="../test/setup.vi"/>
-		<Item Name="teardown.vi" Type="VI" URL="../test/teardown.vi"/>
-		<Item Name="setup.lvtest" Type="TestItem" URL="../test/setup.lvtest">
-			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:setup.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">AB9E7215-6A8E-AC71-E716-956B4096853A</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="CanSetParameterFloatingPointValue.lvtest" Type="TestItem" URL="../CanSetParameterFloatingPointValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CanSetParameterFloatingPointValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">8C92A726-EDA9-83AA-0F8B-B64C91ED05AE</Property>
 		</Item>
-		<Item Name="Set_ExposureTime.lvtest" Type="TestItem" URL="../Set_ExposureTime.lvtest">
-			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Set_ExposureTime.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">57C0C13E-7E95-C741-1D1B-CD9AA537E6B2</Property>
+		<Item Name="CanSetParameterIntegerValue.lvtest" Type="TestItem" URL="../CanSetParameterIntegerValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CanSetParameterIntegerValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">35D338D3-492D-9E7F-BB1D-F6F7592A37FA</Property>
+		</Item>
+		<Item Name="CanSetParameterLargeIntegerValue.lvtest" Type="TestItem" URL="../CanSetParameterLargeIntegerValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CanSetParameterLargeIntegerValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">88195883-E286-1C2F-1C5F-C96FA8DF861F</Property>
 		</Item>
 		<Item Name="Get_CCD_temperature.lvtest" Type="TestItem" URL="../Get_CCD_temperature.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Get_CCD_temperature.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">427CF010-0410-B265-40E2-29E75B55A233</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">8C85DE14-9A71-2289-F02D-CDD521F46CBE</Property>
 		</Item>
+		<Item Name="GetAvailableDemoCameraModels.lvtest" Type="TestItem" URL="../GetAvailableDemoCameraModels.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:GetAvailableDemoCameraModels.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">89E5CF00-5869-7A01-2ED6-CA3ADDF6CAAE</Property>
+		</Item>
+		<Item Name="GetParameterCollectionConstraint.lvtest" Type="TestItem" URL="../GetParameterCollectionConstraint.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:GetParameterCollectionConstraint.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">1171F507-9D25-B81B-0345-8F9AA484B661</Property>
+		</Item>
+		<Item Name="PI_V.lvtest" Type="TestItem" URL="../private/PI_V.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:PI_V.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">9041C714-4838-A81B-CC5D-044D883E6180</Property>
+		</Item>
+		<Item Name="ReadParameterFloatingPointValue.lvtest" Type="TestItem" URL="../ReadParameterFloatingPointValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:ReadParameterFloatingPointValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">9033D36A-397D-81BC-C977-85394EE38D26</Property>
+		</Item>
+		<Item Name="ReadParameterIntegerValue.lvtest" Type="TestItem" URL="../ReadParameterIntegerValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:ReadParameterIntegerValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">AFA9C46E-CFF8-5393-D8DD-0155DB33E868</Property>
+		</Item>
+		<Item Name="ReadParameterLargeIntegerValue.lvtest" Type="TestItem" URL="../ReadParameterLargeIntegerValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:ReadParameterLargeIntegerValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">E4D4D83F-765A-3A92-9123-44FCA150F1EE</Property>
+		</Item>
+		<Item Name="Set_ExposureTime.lvtest" Type="TestItem" URL="../Set_ExposureTime.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Set_ExposureTime.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">E11986C6-7619-4DB4-DA8B-F9C09D82FCD2</Property>
+		</Item>
+		<Item Name="SetParameterFloatingPointValue.lvtest" Type="TestItem" URL="../SetParameterFloatingPointValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:SetParameterFloatingPointValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">600B6001-EDFB-3774-1966-1EE881C70589</Property>
+		</Item>
+		<Item Name="SetParameterIntegerValue.lvtest" Type="TestItem" URL="../SetParameterIntegerValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:SetParameterIntegerValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">2B11BA35-79D6-D56A-3985-3735061BB7DB</Property>
+		</Item>
+		<Item Name="SetParameterLargeIntegerValue.lvtest" Type="TestItem" URL="../SetParameterLargeIntegerValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:SetParameterLargeIntegerValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">10C1770C-3C5C-5F11-D18A-C16C97BF517A</Property>
+		</Item>
+		<Item Name="setup.lvtest" Type="TestItem" URL="../test/setup.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:setup.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">07F3F18E-B6F8-1F6C-BCD7-67B764E38BFC</Property>
+		</Item>
+		<Item Name="setup.vi" Type="VI" URL="../test/setup.vi"/>
+		<Item Name="teardown.vi" Type="VI" URL="../test/teardown.vi"/>
+	</Item>
+	<Item Name="Types" Type="Folder">
+		<Item Name="PicamConstraintType.ctl" Type="VI" URL="../types/PicamConstraintType.ctl"/>
+		<Item Name="PicamValueType.ctl" Type="VI" URL="../types/PicamValueType.ctl"/>
+	</Item>
+	<Item Name="Set and Get" Type="Folder">
+		<Item Name="ReadParameterIntegerValue.vi" Type="VI" URL="../ReadParameterIntegerValue.vi"/>
+		<Item Name="ReadParameterFloatingPointValue.vi" Type="VI" URL="../ReadParameterFloatingPointValue.vi"/>
+		<Item Name="ReadParameterLargeIntegerValue.vi" Type="VI" URL="../ReadParameterLargeIntegerValue.vi"/>
+		<Item Name="SetParameterIntegerValue.vi" Type="VI" URL="../SetParameterIntegerValue.vi"/>
+		<Item Name="SetParameterLargeIntegerValue.vi" Type="VI" URL="../SetParameterLargeIntegerValue.vi"/>
+		<Item Name="CanSetParameterLargeIntegerValue.vi" Type="VI" URL="../CanSetParameterLargeIntegerValue.vi"/>
+		<Item Name="CanSetParameterIntegerValue.vi" Type="VI" URL="../CanSetParameterIntegerValue.vi"/>
+		<Item Name="AreParametersCommitted.vi" Type="VI" URL="../AreParametersCommitted.vi"/>
+		<Item Name="GetParameterCollectionConstraint.vi" Type="VI" URL="../GetParameterCollectionConstraint.vi"/>
+		<Item Name="SetParameterFloatingPointValue.vi" Type="VI" URL="../SetParameterFloatingPointValue.vi"/>
+		<Item Name="CanSetParameterFloatingPointValue.vi" Type="VI" URL="../CanSetParameterFloatingPointValue.vi"/>
 	</Item>
 	<Item Name="TESTER_v1.vi" Type="VI" URL="../TESTER_v1.vi"/>
 	<Item Name="TESTER_v2.vi" Type="VI" URL="../TESTER_v2.vi"/>
