@@ -10,13 +10,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="CLUSTERSimple.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/examples/Connectivity/Libraries and Executables/DLL Calling VIs/CLUSTERSimple.vi"/>
 		<Item Name="CollectionConstraint.ctl" Type="VI" URL="../PICam_lib/types/CollectionConstraint.ctl"/>
 		<Item Name="ConstraintScope.ctl" Type="VI" URL="../PICam_lib/types/ConstraintScope.ctl"/>
 		<Item Name="ConstraintSeverity.ctl" Type="VI" URL="../PICam_lib/types/ConstraintSeverity.ctl"/>
+		<Item Name="External Code (DLL) Execution.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/examples/Connectivity/Libraries and Executables/External Code (DLL) Execution.vi"/>
+		<Item Name="lvPointer.vi" Type="VI" URL="/C/Users/femtolab_admin/AppData/Local/Temp/lvusecpointer/LV Use C Pointer/lvPointer.vi"/>
 		<Item Name="ParameterList_to_Ring.vi" Type="VI" URL="/C/Users/femtolab_admin/Documents/Scripts/Julia/ParameterList_to_Ring.vi"/>
 		<Item Name="PICam.lvlib" Type="Library" URL="../PICam_lib/PICam.lvlib"/>
 		<Item Name="PicamConstraintCategory.ctl" Type="VI" URL="../PICam_lib/types/PicamConstraintCategory.ctl"/>
 		<Item Name="PicamModel.ctl" Type="VI" URL="../PICam_lib/types/PicamModel.ctl"/>
+		<Item Name="PicamRoi.ctl" Type="VI" URL="../PICam_lib/types/PicamRoi.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -66,7 +70,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Picam*.*   " Type="Document" URL="/../../../../Program Files/Princeton Instruments/PICam/Runtime/Picam*.*   "/>
+			<Item Name="CLF_Example_64.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2019/examples/Connectivity/Libraries and Executables/DLL Calling VIs/CLF_Example_64.dll"/>
+			<Item Name="lvpointer.dll" Type="Document" URL="/C/Users/FEMTOL~1/AppData/Local/Temp/lvusecpointer/LV Use C Pointer/lvpointer.dll"/>
 			<Item Name="Picam64.dll" Type="Document" URL="Picam64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
