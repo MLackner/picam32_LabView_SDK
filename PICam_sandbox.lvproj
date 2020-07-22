@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -19,8 +20,8 @@
 		<Item Name="ParameterList_to_Ring.vi" Type="VI" URL="/C/Users/femtolab_admin/Documents/Scripts/Julia/ParameterList_to_Ring.vi"/>
 		<Item Name="PICam.lvlib" Type="Library" URL="../PICam_lib/PICam.lvlib"/>
 		<Item Name="PicamConstraintCategory.ctl" Type="VI" URL="../PICam_lib/types/PicamConstraintCategory.ctl"/>
-		<Item Name="PicamModel.ctl" Type="VI" URL="../PICam_lib/types/PicamModel.ctl"/>
 		<Item Name="PicamRoi.ctl" Type="VI" URL="../PICam_lib/types/PicamRoi.ctl"/>
+		<Item Name="PicamModel.ctl" Type="VI" URL="../PICam_lib/types/PicamModel.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -71,13 +72,13 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="CLF_Example_64.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2019/examples/Connectivity/Libraries and Executables/DLL Calling VIs/CLF_Example_64.dll"/>
-			<Item Name="lvpointer.dll" Type="Document" URL="/C/Users/FEMTOL~1/AppData/Local/Temp/lvusecpointer/LV Use C Pointer/lvpointer.dll"/>
 			<Item Name="Picam64.dll" Type="Document" URL="Picam64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Picam64.dll   " Type="Document" URL="Picam64.dll   ">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvPointer.dll" Type="Document" URL="/C/Users/femtolab_admin/AppData/Local/Temp/lvusecpointer/LV Use C Pointer/lvPointer.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
