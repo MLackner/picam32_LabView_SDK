@@ -190,18 +190,20 @@
 		<Item Name="Set_VerticalShiftRate.vi" Type="VI" URL="../Set_VerticalShiftRate.vi"/>
 	</Item>
 	<Item Name="Acquire" Type="Folder">
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="BytesPerReadout (SubVI).vi" Type="VI" URL="../BytesPerReadout (SubVI).vi"/>
+			<Item Name="MoveAcquiredData (SubVI).vi" Type="VI" URL="../MoveAcquiredData (SubVI).vi"/>
+			<Item Name="InitializeDAQBuffer.vi" Type="VI" URL="../InitializeDAQBuffer.vi"/>
+		</Item>
 		<Item Name="Acquire_CCD_data.vi" Type="VI" URL="../Acquire_CCD_data.vi"/>
 		<Item Name="StartAcquisition.vi" Type="VI" URL="../StartAcquisition.vi"/>
 		<Item Name="StopAcquisition.vi" Type="VI" URL="../StopAcquisition.vi"/>
 		<Item Name="IsAcquisitionRunning.vi" Type="VI" URL="../IsAcquisitionRunning.vi"/>
 		<Item Name="WaitForAcquisitionUpdate.vi" Type="VI" URL="../WaitForAcquisitionUpdate.vi"/>
+		<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Set_Rois.lvtest" Type="TestItem" URL="../Set_Rois.lvtest">
-			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Set_Rois.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">F09B4342-7DC0-FEC1-732D-761D624CDB41</Property>
-		</Item>
 		<Item Name="CanSetParameterFloatingPointValue.lvtest" Type="TestItem" URL="../CanSetParameterFloatingPointValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CanSetParameterFloatingPointValue.vi</Property>
 			<Property Name="utf.vector.test.bind" Type="Str">7747E8C5-8A98-241B-9FE2-04D008A805C2</Property>
@@ -213,6 +215,10 @@
 		<Item Name="CanSetParameterLargeIntegerValue.lvtest" Type="TestItem" URL="../CanSetParameterLargeIntegerValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CanSetParameterLargeIntegerValue.vi</Property>
 			<Property Name="utf.vector.test.bind" Type="Str">74E92F11-C8EE-89E6-6027-7B5126226171</Property>
+		</Item>
+		<Item Name="CommitParameters.lvtest" Type="TestItem" URL="../CommitParameters.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CommitParameters.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">F27B61DF-5FA0-A708-99B0-4378BE095B99</Property>
 		</Item>
 		<Item Name="Get_CCD_temperature.lvtest" Type="TestItem" URL="../Get_CCD_temperature.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Get_CCD_temperature.vi</Property>
@@ -250,6 +256,10 @@
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Set_ExposureTime.vi</Property>
 			<Property Name="utf.vector.test.bind" Type="Str">EA63D011-9C06-F47B-90AD-B086B39C4537</Property>
 		</Item>
+		<Item Name="Set_Rois.lvtest" Type="TestItem" URL="../Set_Rois.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Set_Rois.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">F09B4342-7DC0-FEC1-732D-761D624CDB41</Property>
+		</Item>
 		<Item Name="SetParameterFloatingPointValue.lvtest" Type="TestItem" URL="../SetParameterFloatingPointValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:SetParameterFloatingPointValue.vi</Property>
 			<Property Name="utf.vector.test.bind" Type="Str">3F3D4FE0-C088-1765-560E-3458BCDA99FE</Property>
@@ -272,18 +282,38 @@
 		</Item>
 		<Item Name="setup.vi" Type="VI" URL="../test/setup.vi"/>
 		<Item Name="teardown.vi" Type="VI" URL="../test/teardown.vi"/>
+		<Item Name="test_CommitParameters.lvtest" Type="TestItem" URL="../test_CommitParameters.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:test_CommitParameters.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">8BD3C34E-B625-35E5-F0CE-C53B8315B3E5</Property>
+		</Item>
+		<Item Name="test_CommitParameters.vi" Type="VI" URL="../test_CommitParameters.vi"/>
+		<Item Name="test_SetParameterRoisValue.lvtest" Type="TestItem" URL="../test_SetParameterRoisValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:test_SetParameterRoisValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">B7DD60F7-436E-0B60-0936-71EAD1F7C44F</Property>
+		</Item>
+		<Item Name="test_SetParameterRoisValue.vi" Type="VI" URL="../test_SetParameterRoisValue.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="PicamConstraintType.ctl" Type="VI" URL="../types/PicamConstraintType.ctl"/>
 		<Item Name="PicamValueType.ctl" Type="VI" URL="../types/PicamValueType.ctl"/>
 		<Item Name="PicamParameter.ctl" Type="VI" URL="../types/PicamParameter.ctl"/>
+		<Item Name="PicamConstraintCategory.ctl" Type="VI" URL="../types/PicamConstraintCategory.ctl"/>
+		<Item Name="PicamAvailableData.ctl" Type="VI" URL="../types/PicamAvailableData.ctl"/>
+		<Item Name="RoiSize.ctl" Type="VI" URL="../types/utility/RoiSize.ctl"/>
+		<Item Name="DataAcquisitionResult.ctl" Type="VI" URL="../types/utility/DataAcquisitionResult.ctl"/>
+		<Item Name="PicamAcquisitionErrorsMask.ctl" Type="VI" URL="../types/PicamAcquisitionErrorsMask.ctl"/>
+		<Item Name="PicamAcquisitionStatus.ctl" Type="VI" URL="../types/PicamAcquisitionStatus.ctl"/>
+		<Item Name="CollectionConstraint.ctl" Type="VI" URL="../types/CollectionConstraint.ctl"/>
+		<Item Name="ConstraintScope.ctl" Type="VI" URL="../types/ConstraintScope.ctl"/>
+		<Item Name="ConstraintSeverity.ctl" Type="VI" URL="../types/ConstraintSeverity.ctl"/>
 	</Item>
-	<Item Name="Set and Get" Type="Folder">
+	<Item Name="Configuration" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="AreParametersCommitted.vi" Type="VI" URL="../AreParametersCommitted.vi"/>
 		<Item Name="CanSetParameterFloatingPointValue.vi" Type="VI" URL="../CanSetParameterFloatingPointValue.vi"/>
 		<Item Name="CanSetParameterIntegerValue.vi" Type="VI" URL="../CanSetParameterIntegerValue.vi"/>
 		<Item Name="CanSetParameterLargeIntegerValue.vi" Type="VI" URL="../CanSetParameterLargeIntegerValue.vi"/>
+		<Item Name="CommitParameters.vi" Type="VI" URL="../CommitParameters.vi"/>
 		<Item Name="GetParameterCollectionConstraint.vi" Type="VI" URL="../GetParameterCollectionConstraint.vi"/>
 		<Item Name="GetParameterRoisValue.vi" Type="VI" URL="../GetParameterRoisValue.vi"/>
 		<Item Name="ReadParameterFloatingPointValue.vi" Type="VI" URL="../ReadParameterFloatingPointValue.vi"/>

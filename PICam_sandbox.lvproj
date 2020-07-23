@@ -12,21 +12,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CLUSTERSimple.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/examples/Connectivity/Libraries and Executables/DLL Calling VIs/CLUSTERSimple.vi"/>
-		<Item Name="CollectionConstraint.ctl" Type="VI" URL="../PICam_lib/types/CollectionConstraint.ctl"/>
-		<Item Name="ConstraintScope.ctl" Type="VI" URL="../PICam_lib/types/ConstraintScope.ctl"/>
-		<Item Name="ConstraintSeverity.ctl" Type="VI" URL="../PICam_lib/types/ConstraintSeverity.ctl"/>
 		<Item Name="External Code (DLL) Execution.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/examples/Connectivity/Libraries and Executables/External Code (DLL) Execution.vi"/>
 		<Item Name="lvPointer.vi" Type="VI" URL="/C/Users/femtolab_admin/AppData/Local/Temp/lvusecpointer/LV Use C Pointer/lvPointer.vi"/>
 		<Item Name="ParameterList_to_Ring.vi" Type="VI" URL="/C/Users/femtolab_admin/Documents/Scripts/Julia/ParameterList_to_Ring.vi"/>
 		<Item Name="PICam.lvlib" Type="Library" URL="../PICam_lib/PICam.lvlib"/>
-		<Item Name="PicamConstraintCategory.ctl" Type="VI" URL="../PICam_lib/types/PicamConstraintCategory.ctl"/>
 		<Item Name="PicamRoi.ctl" Type="VI" URL="../PICam_lib/types/PicamRoi.ctl"/>
 		<Item Name="PicamModel.ctl" Type="VI" URL="../PICam_lib/types/PicamModel.ctl"/>
-		<Item Name="PicamAvailableData.ctl" Type="VI" URL="../PICam_lib/types/PicamAvailableData.ctl"/>
-		<Item Name="RoiSize.ctl" Type="VI" URL="../PICam_lib/types/utility/RoiSize.ctl"/>
-		<Item Name="DataAcquisitionResult.ctl" Type="VI" URL="../PICam_lib/types/utility/DataAcquisitionResult.ctl"/>
-		<Item Name="PicamAcquisitionErrorsMask.ctl" Type="VI" URL="../PICam_lib/types/PicamAcquisitionErrorsMask.ctl"/>
-		<Item Name="PicamAcquisitionStatus.ctl" Type="VI" URL="../PICam_lib/types/PicamAcquisitionStatus.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -84,6 +75,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvPointer.dll" Type="Document" URL="/C/Users/femtolab_admin/AppData/Local/Temp/lvusecpointer/LV Use C Pointer/lvPointer.dll"/>
+			<Item Name="PicamRois.ctl" Type="VI" URL="../PICam_lib/types/PicamRois.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
