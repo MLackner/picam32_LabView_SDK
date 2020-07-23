@@ -22,6 +22,11 @@
 		<Item Name="PicamConstraintCategory.ctl" Type="VI" URL="../PICam_lib/types/PicamConstraintCategory.ctl"/>
 		<Item Name="PicamRoi.ctl" Type="VI" URL="../PICam_lib/types/PicamRoi.ctl"/>
 		<Item Name="PicamModel.ctl" Type="VI" URL="../PICam_lib/types/PicamModel.ctl"/>
+		<Item Name="PicamAvailableData.ctl" Type="VI" URL="../PICam_lib/types/PicamAvailableData.ctl"/>
+		<Item Name="RoiSize.ctl" Type="VI" URL="../PICam_lib/types/utility/RoiSize.ctl"/>
+		<Item Name="DataAcquisitionResult.ctl" Type="VI" URL="../PICam_lib/types/utility/DataAcquisitionResult.ctl"/>
+		<Item Name="PicamAcquisitionErrorsMask.ctl" Type="VI" URL="../PICam_lib/types/PicamAcquisitionErrorsMask.ctl"/>
+		<Item Name="PicamAcquisitionStatus.ctl" Type="VI" URL="../PICam_lib/types/PicamAcquisitionStatus.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
