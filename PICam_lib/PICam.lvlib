@@ -327,4 +327,5 @@
 	<Item Name="TESTER_v1.vi" Type="VI" URL="../TESTER_v1.vi"/>
 	<Item Name="TESTER_v2.vi" Type="VI" URL="../TESTER_v2.vi"/>
 	<Item Name="TESTER_v3.vi" Type="VI" URL="../TESTER_v3.vi"/>
+	<Item Name="PicamRois.ctl" Type="VI" URL="../types/PicamRois.ctl"/>
 </Library>
