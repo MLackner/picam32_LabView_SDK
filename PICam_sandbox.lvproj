@@ -75,7 +75,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvPointer.dll" Type="Document" URL="/C/Users/femtolab_admin/AppData/Local/Temp/lvusecpointer/LV Use C Pointer/lvPointer.dll"/>
-			<Item Name="PicamRois.ctl" Type="VI" URL="../PICam_lib/types/PicamRois.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
