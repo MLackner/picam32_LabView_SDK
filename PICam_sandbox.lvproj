@@ -13,7 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CLUSTERSimple.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/examples/Connectivity/Libraries and Executables/DLL Calling VIs/CLUSTERSimple.vi"/>
 		<Item Name="External Code (DLL) Execution.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2019/examples/Connectivity/Libraries and Executables/External Code (DLL) Execution.vi"/>
-		<Item Name="lvPointer.vi" Type="VI" URL="/C/Users/femtolab_admin/AppData/Local/Temp/lvusecpointer/LV Use C Pointer/lvPointer.vi"/>
 		<Item Name="ParameterList_to_Ring.vi" Type="VI" URL="/C/Users/femtolab_admin/Documents/Scripts/Julia/ParameterList_to_Ring.vi"/>
 		<Item Name="PICam.lvlib" Type="Library" URL="../PICam_lib/PICam.lvlib"/>
 		<Item Name="PicamRoi.ctl" Type="VI" URL="../PICam_lib/types/PicamRoi.ctl"/>
@@ -74,7 +73,7 @@
 			<Item Name="Picam64.dll   " Type="Document" URL="Picam64.dll   ">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvPointer.dll" Type="Document" URL="/C/Users/femtolab_admin/AppData/Local/Temp/lvusecpointer/LV Use C Pointer/lvPointer.dll"/>
+			<Item Name="PicamSensorTemperatureStatus.ctl" Type="VI" URL="../PICam_lib/Ctrls/PicamSensorTemperatureStatus.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
