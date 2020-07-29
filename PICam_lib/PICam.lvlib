@@ -24,11 +24,9 @@
 		<Item Name="PicamOrientation.ctl" Type="VI" URL="../Ctrls/PicamOrientation.ctl"/>
 		<Item Name="PicamOutputSignal.ctl" Type="VI" URL="../Ctrls/PicamOutputSignal.ctl"/>
 		<Item Name="PicamPixelFormat.ctl" Type="VI" URL="../Ctrls/PicamPixelFormat.ctl"/>
-		<Item Name="PicamReadoutControlMode.ctl" Type="VI" URL="../Ctrls/PicamReadoutControlMode.ctl"/>
 		<Item Name="PicamReadoutOrientation.ctl" Type="VI" URL="../Ctrls/PicamReadoutOrientation.ctl"/>
 		<Item Name="PicamROI.ctl" Type="VI" URL="../Ctrls/PicamROI.ctl"/>
 		<Item Name="PicamROI_s.ctl" Type="VI" URL="../Ctrls/PicamROI_s.ctl"/>
-		<Item Name="PicamSensorTemperatureStatus.ctl" Type="VI" URL="../Ctrls/PicamSensorTemperatureStatus.ctl"/>
 		<Item Name="PicamSensorType.ctl" Type="VI" URL="../Ctrls/PicamSensorType.ctl"/>
 		<Item Name="PicamTimeStamps.ctl" Type="VI" URL="../Ctrls/PicamTimeStamps.ctl"/>
 		<Item Name="PicamTriggerDetermination.ctl" Type="VI" URL="../Ctrls/PicamTriggerDetermination.ctl"/>
@@ -206,99 +204,111 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Acquire.lvtest" Type="TestItem" URL="../Acquire.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Acquire.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">41EA9632-4EFD-D0E0-83D0-7E34007F11EC</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">33C15F00-72D1-9842-557C-0CE8D2843256</Property>
 		</Item>
 		<Item Name="CanSetParameterFloatingPointValue.lvtest" Type="TestItem" URL="../CanSetParameterFloatingPointValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CanSetParameterFloatingPointValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">FBE2F6A7-4622-9404-BBE0-92B86BE72A95</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">A44C8C70-7838-A2BE-F0F2-55F0DA6D4D52</Property>
 		</Item>
 		<Item Name="CanSetParameterIntegerValue.lvtest" Type="TestItem" URL="../CanSetParameterIntegerValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CanSetParameterIntegerValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">E2794DAA-3EA2-258B-A764-A53AEB881A3F</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">16521EA7-FF76-83B9-DA74-4FA50BAD285E</Property>
 		</Item>
 		<Item Name="CanSetParameterLargeIntegerValue.lvtest" Type="TestItem" URL="../CanSetParameterLargeIntegerValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CanSetParameterLargeIntegerValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">C0AA5201-0D9A-B8E6-30B5-5ADC69D633C8</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">6FD85FA1-99FE-95DF-6C93-2B1F313D5BA6</Property>
+		</Item>
+		<Item Name="CanSetParameterPulseValue.lvtest" Type="TestItem" URL="../CanSetParameterPulseValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CanSetParameterPulseValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">F767C2E1-6DAD-3FEC-19D8-F4A8C8D24E90</Property>
 		</Item>
 		<Item Name="CommitParameters.lvtest" Type="TestItem" URL="../CommitParameters.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:CommitParameters.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">89D912F9-558A-5F0B-1C65-0ADEF02D9F1E</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">F9D82595-40FB-D52F-D19C-3A18D2561BEE</Property>
 		</Item>
 		<Item Name="Get_CCD_temperature.lvtest" Type="TestItem" URL="../Get_CCD_temperature.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Get_CCD_temperature.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">F029D77E-63DB-1EA1-A6FA-141D626F492C</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">4A681B9A-9595-69F1-91BC-24D3E6830E31</Property>
 		</Item>
 		<Item Name="GetAvailableDemoCameraModels.lvtest" Type="TestItem" URL="../GetAvailableDemoCameraModels.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:GetAvailableDemoCameraModels.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">7916D249-F02D-8261-1AE8-BCE7B2626322</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">A537FA16-8010-CC6D-604D-248E87709147</Property>
 		</Item>
 		<Item Name="GetParameterCollectionConstraint.lvtest" Type="TestItem" URL="../GetParameterCollectionConstraint.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:GetParameterCollectionConstraint.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">876564AD-3146-BB1E-BA8D-57FF6E1764E2</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">9C238D1D-BC90-3773-5ADE-0D96D289877D</Property>
+		</Item>
+		<Item Name="GetParameterPulseValue.lvtest" Type="TestItem" URL="../GetParameterPulseValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:GetParameterPulseValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">23494413-D984-7DEF-0D81-8F6ED50B52FE</Property>
 		</Item>
 		<Item Name="GetParameterRoisValue.lvtest" Type="TestItem" URL="../GetParameterRoisValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:GetParameterRoisValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">2754F8D0-63C3-44C9-7E89-789E95342914</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">8C13F257-66E4-6292-7B9D-847630AA0877</Property>
 		</Item>
 		<Item Name="PI_V.lvtest" Type="TestItem" URL="../private/PI_V.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:PI_V.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">070B8393-2CAE-ADF5-10DA-5E6907AD0405</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">C94F53A2-5625-AF50-B1BA-772CEAE7D509</Property>
 		</Item>
 		<Item Name="ReadParameterFloatingPointValue.lvtest" Type="TestItem" URL="../ReadParameterFloatingPointValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:ReadParameterFloatingPointValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">588BB5AD-D562-4ED7-61D1-8C8C4252CF6E</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">EE668EAA-31A6-955E-A189-973C737D4937</Property>
 		</Item>
 		<Item Name="ReadParameterIntegerValue.lvtest" Type="TestItem" URL="../ReadParameterIntegerValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:ReadParameterIntegerValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">92CF19AA-FDEC-1986-C928-6F8F55AC74F7</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">A507E8D4-E37C-DD29-E161-28750D9B9E2E</Property>
 		</Item>
 		<Item Name="ReadParameterLargeIntegerValue.lvtest" Type="TestItem" URL="../ReadParameterLargeIntegerValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:ReadParameterLargeIntegerValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">6F481C5C-5493-6878-8E09-113A17EE1478</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">6BFBEFAF-0CF3-CF1D-29D5-53EDEDD537DA</Property>
 		</Item>
 		<Item Name="Set_ExposureTime.lvtest" Type="TestItem" URL="../Set_ExposureTime.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Set_ExposureTime.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">AD30CFF5-CF32-FB0E-DA8A-6BB07CFE9D55</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">23DCB7CF-0116-9CDD-3212-310AD2624799</Property>
 		</Item>
 		<Item Name="Set_Rois.lvtest" Type="TestItem" URL="../Set_Rois.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:Set_Rois.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">5C69A016-F736-47B4-C172-84B8802FFD78</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">A9DCB7B6-F5FF-3E7E-3D32-FF990AA0CE4C</Property>
 		</Item>
 		<Item Name="SetParameterFloatingPointValue.lvtest" Type="TestItem" URL="../SetParameterFloatingPointValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:SetParameterFloatingPointValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">59532A75-C37E-E08E-FEB8-15DC98550A73</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">786759F8-BABF-A3C1-FDC6-83C643B7BAA6</Property>
 		</Item>
 		<Item Name="SetParameterIntegerValue.lvtest" Type="TestItem" URL="../SetParameterIntegerValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:SetParameterIntegerValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">CB601F47-DEFF-736B-E432-7D77ABADF52B</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">012F50CB-2196-7D11-8D27-B70B4AA0E7F8</Property>
 		</Item>
 		<Item Name="SetParameterLargeIntegerValue.lvtest" Type="TestItem" URL="../SetParameterLargeIntegerValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:SetParameterLargeIntegerValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">911766D3-6CC4-3209-1F33-F6D6C8A2CAC3</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">FABF8EB7-9BD0-0B7E-AFEA-E935B83AE5A4</Property>
+		</Item>
+		<Item Name="SetParameterPulseValue.lvtest" Type="TestItem" URL="../SetParameterPulseValue.lvtest">
+			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:SetParameterPulseValue.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">D4CCF27E-2C87-76B1-A3D9-B6FB2A9CFD0E</Property>
 		</Item>
 		<Item Name="SetParameterRoisValue.lvtest" Type="TestItem" URL="../SetParameterRoisValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:SetParameterRoisValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">07A99438-2875-C211-9CF3-F542B4C57A59</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">F3BDC0CB-AD1D-5618-DF3B-85FF7500ABCC</Property>
 		</Item>
 		<Item Name="setup.lvtest" Type="TestItem" URL="../test/setup.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:setup.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">1EA230BE-AC70-DBED-9ABB-1D1E63228A39</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">2570C2E2-D90A-DFD5-652D-8EA0DD50939C</Property>
 		</Item>
 		<Item Name="setup.vi" Type="VI" URL="../test/setup.vi"/>
 		<Item Name="teardown.vi" Type="VI" URL="../test/teardown.vi"/>
 		<Item Name="test_CommitParameters.lvtest" Type="TestItem" URL="../test_CommitParameters.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:test_CommitParameters.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">CB3E57E8-FA69-E6B5-89DA-7741C9257677</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">80113A16-9867-67C2-DB02-CC232EE5F1BF</Property>
 		</Item>
 		<Item Name="test_CommitParameters.vi" Type="VI" URL="../test_CommitParameters.vi"/>
 		<Item Name="test_SetParameterRoisValue.lvtest" Type="TestItem" URL="../test_SetParameterRoisValue.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:test_SetParameterRoisValue.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">64BFB013-DD21-BB3F-4B05-C435D77FC4D0</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">50936B25-2C1A-5140-1487-65454649DD9E</Property>
 		</Item>
 		<Item Name="test_SetParameterRoisValue.vi" Type="VI" URL="../test_SetParameterRoisValue.vi"/>
 		<Item Name="testset_Continuous Acquisition.lvtest" Type="TestItem" URL="../test/testset_Continuous Acquisition.lvtest">
 			<Property Name="utf.test.bind" Type="Str">PICam.lvlib:testset_Continuous Acquisition.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">B499F00A-D961-E844-B1E9-2869B621AC0B</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">A7336490-5679-1EC2-D1A6-CBA8E70DCC08</Property>
 		</Item>
 		<Item Name="testset_Continuous Acquisition.vi" Type="VI" URL="../test/testset_Continuous Acquisition.vi"/>
 	</Item>
@@ -315,6 +325,17 @@
 		<Item Name="CollectionConstraint.ctl" Type="VI" URL="../types/CollectionConstraint.ctl"/>
 		<Item Name="ConstraintScope.ctl" Type="VI" URL="../types/ConstraintScope.ctl"/>
 		<Item Name="ConstraintSeverity.ctl" Type="VI" URL="../types/ConstraintSeverity.ctl"/>
+		<Item Name="PicamRois.ctl" Type="VI" URL="../types/PicamRois.ctl"/>
+		<Item Name="PicamGatingMode.ctl" Type="VI" URL="../types/PicamGatingMode.ctl"/>
+		<Item Name="PicamGatingSpeed.ctl" Type="VI" URL="../types/PicamGatingSpeed.ctl"/>
+		<Item Name="PicamGateTrackingMask.ctl" Type="VI" URL="../types/PicamGateTrackingMask.ctl"/>
+		<Item Name="PicamEMIccdGainControlMode.ctl" Type="VI" URL="../types/PicamEMIccdGainControlMode.ctl"/>
+		<Item Name="PicamIntensifierOptionsMask.ctl" Type="VI" URL="../types/PicamIntensifierOptionsMask.ctl"/>
+		<Item Name="PicamIntensifierStatus.ctl" Type="VI" URL="../types/PicamIntensifierStatus.ctl"/>
+		<Item Name="PicamReadoutControlMode.ctl" Type="VI" URL="../types/PicamReadoutControlMode.ctl"/>
+		<Item Name="PicamSensorTemperatureStatus.ctl" Type="VI" URL="../types/PicamSensorTemperatureStatus.ctl"/>
+		<Item Name="PicamTriggerSource.ctl" Type="VI" URL="../types/PicamTriggerSource.ctl"/>
+		<Item Name="PicamPulse.ctl" Type="VI" URL="../types/PicamPulse.ctl"/>
 	</Item>
 	<Item Name="Configuration" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -322,8 +343,10 @@
 		<Item Name="CanSetParameterFloatingPointValue.vi" Type="VI" URL="../CanSetParameterFloatingPointValue.vi"/>
 		<Item Name="CanSetParameterIntegerValue.vi" Type="VI" URL="../CanSetParameterIntegerValue.vi"/>
 		<Item Name="CanSetParameterLargeIntegerValue.vi" Type="VI" URL="../CanSetParameterLargeIntegerValue.vi"/>
+		<Item Name="CanSetParameterPulseValue.vi" Type="VI" URL="../CanSetParameterPulseValue.vi"/>
 		<Item Name="CommitParameters.vi" Type="VI" URL="../CommitParameters.vi"/>
 		<Item Name="GetParameterCollectionConstraint.vi" Type="VI" URL="../GetParameterCollectionConstraint.vi"/>
+		<Item Name="GetParameterPulseValue.vi" Type="VI" URL="../GetParameterPulseValue.vi"/>
 		<Item Name="GetParameterRoisValue.vi" Type="VI" URL="../GetParameterRoisValue.vi"/>
 		<Item Name="ReadParameterFloatingPointValue.vi" Type="VI" URL="../ReadParameterFloatingPointValue.vi"/>
 		<Item Name="ReadParameterIntegerValue.vi" Type="VI" URL="../ReadParameterIntegerValue.vi"/>
@@ -331,10 +354,7 @@
 		<Item Name="SetParameterFloatingPointValue.vi" Type="VI" URL="../SetParameterFloatingPointValue.vi"/>
 		<Item Name="SetParameterIntegerValue.vi" Type="VI" URL="../SetParameterIntegerValue.vi"/>
 		<Item Name="SetParameterLargeIntegerValue.vi" Type="VI" URL="../SetParameterLargeIntegerValue.vi"/>
+		<Item Name="SetParameterPulseValue.vi" Type="VI" URL="../SetParameterPulseValue.vi"/>
 		<Item Name="SetParameterRoisValue.vi" Type="VI" URL="../SetParameterRoisValue.vi"/>
 	</Item>
-	<Item Name="TESTER_v1.vi" Type="VI" URL="../TESTER_v1.vi"/>
-	<Item Name="TESTER_v2.vi" Type="VI" URL="../TESTER_v2.vi"/>
-	<Item Name="TESTER_v3.vi" Type="VI" URL="../TESTER_v3.vi"/>
-	<Item Name="PicamRois.ctl" Type="VI" URL="../types/PicamRois.ctl"/>
 </Library>
