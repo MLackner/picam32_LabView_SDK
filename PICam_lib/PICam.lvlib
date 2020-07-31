@@ -14,8 +14,6 @@
 		<Item Name="PicamAcquisitionBufferWithFiller.ctl" Type="VI" URL="../Ctrls/PicamAcquisitionBufferWithFiller.ctl"/>
 		<Item Name="PicamAcquisitionBufferWithoutFiller.ctl" Type="VI" URL="../Ctrls/PicamAcquisitionBufferWithoutFiller.ctl"/>
 		<Item Name="PicamAcquisitionErrors.ctl" Type="VI" URL="../Ctrls/PicamAcquisitionErrors.ctl"/>
-		<Item Name="PicamADCAnalogGain.ctl" Type="VI" URL="../Ctrls/PicamADCAnalogGain.ctl"/>
-		<Item Name="PicamAdcQuality.ctl" Type="VI" URL="../Ctrls/PicamAdcQuality.ctl"/>
 		<Item Name="PicamCameraID.ctl" Type="VI" URL="../Ctrls/PicamCameraID.ctl"/>
 		<Item Name="PicamCcdCharacteristics.ctl" Type="VI" URL="../Ctrls/PicamCcdCharacteristics.ctl"/>
 		<Item Name="PicamComputerInterface.ctl" Type="VI" URL="../Ctrls/PicamComputerInterface.ctl"/>
@@ -336,6 +334,8 @@
 		<Item Name="PicamSensorTemperatureStatus.ctl" Type="VI" URL="../types/PicamSensorTemperatureStatus.ctl"/>
 		<Item Name="PicamTriggerSource.ctl" Type="VI" URL="../types/PicamTriggerSource.ctl"/>
 		<Item Name="PicamPulse.ctl" Type="VI" URL="../types/PicamPulse.ctl"/>
+		<Item Name="PicamAdcAnalogGain.ctl" Type="VI" URL="../Ctrls/PicamAdcAnalogGain.ctl"/>
+		<Item Name="PicamAdcQuality.ctl" Type="VI" URL="../Ctrls/PicamAdcQuality.ctl"/>
 	</Item>
 	<Item Name="Configuration" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
